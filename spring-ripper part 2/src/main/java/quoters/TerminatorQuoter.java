@@ -23,11 +23,14 @@ public class TerminatorQuoter implements Quoter {
 
     public TerminatorQuoter() {
         System.out.println("Phase 1");
-        System.out.println("repeat = " + repeat);
     }
 
     public void setMessage(String message) {
         this.message = message;
+    }
+
+    public void setRepeat(int repeat) {
+        this.repeat = repeat;
     }
 
     @Override
